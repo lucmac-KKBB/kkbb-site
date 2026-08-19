@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KKBB — Un round. Deux choix. Zéro swipe.</title>
+<meta name="description" content="Chaque soir, dix personnes à Luxembourg. Tu fais deux choix. Tu ressors avec quelqu'un.">
+<meta property="og:title" content="KKBB — Un round. Deux choix. Zéro swipe.">
+<meta property="og:description" content="Chaque soir, dix personnes à Luxembourg. Tu fais deux choix. Tu ressors avec quelqu'un.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f0e4;--ink:#1c1712;--coral:#f0442e;--sun:#ffcf3f;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Space Grotesk',system-ui,sans-serif;line-height:1.5}
+.wrap{max-width:900px;margin:0 auto;padding:28px 22px 70px}
+
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:70px}
+.logo{font-family:'Bricolage Grotesque';font-weight:800;font-size:19px;letter-spacing:-.5px;color:var(--coral);text-decoration:none}
+.logo b{color:var(--ink)}
+.city{font-family:'Space Mono';font-size:11px;letter-spacing:1px;color:rgba(28,23,18,.5)}
+
+h1{font-family:'Bricolage Grotesque';font-weight:800;font-size:clamp(42px,9vw,78px);line-height:.98;letter-spacing:-2.5px;margin:0 0 22px}
+.lead{font-size:clamp(16px,2.2vw,19px);max-width:520px;color:rgba(28,23,18,.8);margin:0 0 34px}
+
+.pill{display:inline-flex;align-items:center;gap:8px;background:var(--sun);border:2px solid var(--ink);padding:6px 13px;border-radius:999px;font-family:'Bricolage Grotesque';font-weight:800;font-size:12px;box-shadow:2px 2px 0 var(--ink);margin-bottom:26px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--coral)}
+
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin:64px 0}
+.step{background:var(--card);border:2px solid var(--ink);border-radius:20px;padding:20px;box-shadow:4px 4px 0 var(--ink)}
+.num{font-family:'Bricolage Grotesque';font-weight:800;font-size:13px;color:#fff;background:var(--coral);border:2px solid var(--ink);border-radius:999px;width:30px;height:30px;display:flex;align-items:center;justify-content:center;transform:rotate(-6deg);margin-bottom:12px}
+.step h3{font-family:'Bricolage Grotesque';font-weight:800;font-size:17px;letter-spacing:-.3px;margin:0 0 6px}
+.step p{font-size:14px;color:rgba(28,23,18,.75);margin:0}
+
+.claim{background:var(--ink);color:var(--bg);border-radius:22px;padding:34px 28px;margin:64px 0}
+.claim h2{font-family:'Bricolage Grotesque';font-weight:800;font-size:clamp(24px,4vw,34px);letter-spacing:-1px;margin:0 0 12px;color:var(--sun)}
+.claim p{margin:0;font-size:15px;color:rgba(247,240,228,.85);max-width:520px}
+
+.soon{text-align:center;padding:40px 0 10px}
+.soon .badge{display:inline-block;background:var(--coral);color:#fff;border:2px solid var(--ink);border-radius:999px;padding:10px 22px;font-family:'Bricolage Grotesque';font-weight:800;font-size:15px;box-shadow:3px 3px 0 var(--ink);transform:rotate(-2deg)}
+.soon p{font-size:14px;color:rgba(28,23,18,.6);margin-top:18px}
+
+footer{margin-top:60px;padding-top:22px;border-top:2px solid var(--ink);display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;font-size:13px;color:rgba(28,23,18,.6)}
+footer a{color:var(--coral)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <a class="logo" href="/">kisskiss<b>boomboom</b></a>
+  <span class="city">LUXEMBOURG</span>
+</header>
+
+<span class="pill"><span class="dot"></span>BIENTÔT DISPONIBLE</span>
+
+<h1>Un round.<br>Deux choix.<br>Zéro swipe.</h1>
+
+<p class="lead">
+  Chaque soir, dix personnes. Tu en choisis deux.
+  À la fin du round, tu ressors avec quelqu'un — c'est la règle.
+</p>
+
+<div class="steps">
+  <div class="step">
+    <div class="num">1</div>
+    <h3>Le round s'ouvre</h3>
+    <p>Cinq profils, pas un de plus. Tu as 24 heures pour te décider.</p>
+  </div>
+  <div class="step">
+    <div class="num">2</div>
+    <h3>Tu classes</h3>
+    <p>Un premier choix, un deuxième. Personne ne voit pour qui tu votes.</p>
+  </div>
+  <div class="step">
+    <div class="num">3</div>
+    <h3>La salle se vide</h3>
+    <p>Les choix réciproques sortent en premier. Les autres suivent, par paires.</p>
+  </div>
+</div>
+
+<div class="claim">
+  <h2>Tout le monde ressort apparié</h2>
+  <p>
+    Pas de profil qui disparaît dans le vide, pas de likes sans réponse.
+    Un round produit autant de conversations que de participants.
+  </p>
+</div>
+
+<div class="soon">
+  <span class="badge">Lancement à Luxembourg-Ville 💋</span>
+  <p>iOS d'abord. Android ensuite.</p>
+</div>
+
+<footer>
+  <span>Édité par Linkerr SARL-S, Luxembourg</span>
+  <span>
+    <a href="/privacy.html">Confidentialité</a> ·
+    <a href="/terms.html">Conditions</a>
+  </span>
+</footer>
+
+</div>
+</body>
+</html>
